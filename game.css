@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url("background.pdf");
+    background-image: url('background.pdf');
     background-color: yellow;
     background-size: 100% 100%;
 }
