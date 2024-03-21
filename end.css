@@ -1,0 +1,92 @@
+body {
+    background-image: url('background.pdf');
+    color: white;
+    background-size: 100% 100%;
+    background-position: relative;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+input{
+   margin-left: 110px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.container {
+    opacity: 95%;
+    width: 100vw;
+    height: 35vh;
+   position: top;
+   align-items: top;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1;
+    margin-top: 1px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    background: linear-gradient(90deg, rgb(245, 47, 47) 0%, rgb(107, 34, 3) 100%);
+    border-radius: 34px;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: double;
+    border: 0.2rem solid rgb(238, 244, 239);
+    opacity: 95%;
+}
+
+h2 {
+    background: linear-gradient(90deg, rgb(245, 47, 47) 0%, rgb(107, 34, 3) 100%);
+    border-radius: 34px;
+    text-align: center;
+    text-decoration: double;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 0.2rem solid rgb(238, 244, 239);
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(245, 47, 47) 0%, rgb(107, 34, 3) 100%);
+    border-radius: 34px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 0.2rem solid rgb(238, 244, 239);
+    position: static;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
