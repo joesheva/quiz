@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("background12.pdf");
+    background-image: url('background12.pdf');
     color: white;
     background-size: 100% 100%;
     background-position: relative;
